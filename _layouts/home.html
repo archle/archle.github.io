@@ -9,11 +9,11 @@ layout: default
   </div>
 -->
 
-  <img class="home-logo" src="{{site.epiphanius.logo_path}}" alt="logo">
+    <div class="intro-text">
+      {{ content }}
+    </div>
 
-  <div class="intro-text">
-    {{ content }}
-  </div>
+  <img class="home-logo" src="{{site.epiphanius.logo_path}}" alt="logo">
 
 
   {% if site.paginate %}
