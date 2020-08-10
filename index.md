@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+Isto aqui é um arquivo de textos da minha autoria.

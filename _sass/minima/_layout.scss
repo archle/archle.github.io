@@ -189,11 +189,13 @@
 }
 
 .site-title {
-  @include relative-font-size(1.625);
+  @include relative-font-size(1.5);
   font-family: $title-font-family;
   font-weight: bold;
   letter-spacing: +10px;
   margin-bottom: 0;
+  text-decoration: none;
+  font-style: italic;
   
   /*
   @include media-query($on-palm) {
@@ -221,6 +223,14 @@
   margin-top: 5%;
 }
 
+.intro-text {
+  width: 70%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .page-heading {
   @include relative-font-size(2);
 }
@@ -230,8 +240,8 @@
 }
 
 .post-list {
-  margin-top: 5%;
-  width: 60%;
+  margin-top: 6%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   list-style-type: disc;
@@ -240,7 +250,7 @@
   text-align: center;
 
   li {
-    margin-bottom: 7%;
+    margin-bottom: 6%;
 
     //To display to center:
     display: block;
