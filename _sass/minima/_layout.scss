@@ -250,7 +250,7 @@
   text-align: center;
 
   li {
-    margin-bottom: 6%;
+    margin-bottom: 5%;
 
     //To display to center:
     display: block;
@@ -279,19 +279,35 @@
  * Posts
  */
 .post-header {
-  margin-bottom: $spacing-unit;
+  margin-top: 4%;
+  margin-bottom: 6%;
+  text-align: center;
 }
 
 .post-title,
 .post-content h1 {
-  @include relative-font-size(2.625);
+  @include relative-font-size(1.9);
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
   letter-spacing: -1px;
   line-height: 1.15;
 
   @media screen and (min-width: $on-large) {
-    @include relative-font-size(2.625);
+    @include relative-font-size(2);
   }
 }
+
+/*
+.divided::after {
+ content:"";
+ border:0;
+ display:block;
+ width:152px;
+ height:12px;
+ margin:.5em auto 0;
+ background:url(https://patdryburgh.github.io/hitchens/assets/images/divider.svg) no-repeat top center
+}
+*/
 
 .post-content {
   margin-bottom: $spacing-unit;

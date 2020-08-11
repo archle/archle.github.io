@@ -3,25 +3,31 @@
 // Define defaults for each variable.
 
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Italianno');
 
 $base-font-family: "EB Garamond", Garamond, serif;
 $code-font-family: $base-font-family;
 $title-font-family: $base-font-family;
 $title-font-weight: 300;
+$header-font-family: "EB Garamond", Garamond, serif;
+$header-font-weight: 700;
 $base-font-size: 20px !default;
 $base-font-weight: 300 !default;
 $small-font-size: $base-font-size * 0.69 !default;
-$base-line-height: 1.5 !default;
 
-$spacing-unit: 30px !default;
+$base-line-height: 1.6 !default;
+
+$spacing-unit: 38px !default;
 
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width: 765px !default;
+$content-width: 750px !default;
 
-$on-palm: 600px !default;
-$on-laptop: 800px !default;
+$on-palm: 550px !default;
+$on-laptop: $content-width !default;
 
 $on-medium: $on-palm !default;
 $on-large: $on-laptop !default;
