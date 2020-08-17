@@ -223,6 +223,11 @@
   margin-top: 5%;
 }
 
+.home-shortcut {
+  @extend .home-logo;
+  
+}
+
 .intro-text {
   width: 70%;
   margin-top: 2%;
