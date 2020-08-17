@@ -225,7 +225,17 @@
 
 .home-shortcut {
   @extend .home-logo;
-  
+  width: 12vmin;
+  margin-top: 6%;
+  //flex: 1 0 auto;
+
+  @media screen and (min-width: 1200px) {
+    width: 8vmin;
+    position: fixed;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+
 }
 
 .intro-text {
