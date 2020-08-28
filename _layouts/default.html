@@ -6,11 +6,12 @@
   <body>
 
     {%- if page.layout != "home" -%}
-        <a class="home-shortcut" href="{{ "/" | relative_url }}">
-          <img src="{{ site.url }}/{{ site.epiphanius.logo_path }}" alt="logo">
-        </a>
     
     {%- endif -%}
+
+    <a class="home-shortcut" href="{{ "/" | relative_url }}">
+      <img src="{{ site.url }}/{{ site.epiphanius.logo_path }}" alt="logo">
+    </a>
 
 
     <main class="page-content" aria-label="Content">
