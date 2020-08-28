@@ -9,6 +9,7 @@ paginate: false
 
 epiphanius:
   logo_path: assets/img/sun-worship-black.png
+  home_img_path: assets/img/muerte-de-viriato-museo-de-los-ninos.jpg
 
 defaults:
   -
