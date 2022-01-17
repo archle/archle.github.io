@@ -6,6 +6,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+youtubeId: jRh97dyD8P4
 ---
 
-Isto aqui é um arquivo de textos da minha autoria:
+Por agora tenho cá isto, e já não é mau:
+{% include embed-youtube.html id=page.youtubeId %}

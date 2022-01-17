@@ -139,6 +139,26 @@ a {
 }
 
 
+
+/**
+* Embed videos
+*/
+.embed-container {
+  margin: auto;
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  margin: auto;
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+
+
 /**
  * Blockquotes
  */
