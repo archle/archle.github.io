@@ -9,5 +9,5 @@ layout: home
 youtubeId: jRh97dyD8P4
 ---
 
-Regardez aí:
+
 {% include embed-youtube.html id=page.youtubeId %}
