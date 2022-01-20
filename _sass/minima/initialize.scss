@@ -6,12 +6,14 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 @import url('https://fonts.googleapis.com/css?family=Italianno');
+@import url('https://fonts.googleapis.com/css?family=Spectral');
+@import url('https://fonts.googleapis.com/css?family=Heebo');
 
-$base-font-family: "EB Garamond", Garamond, serif;
+$base-font-family: "Spectral", "EB Garamond", Garamond, serif;
 $code-font-family: $base-font-family;
 $title-font-family: $base-font-family;
 $title-font-weight: 300;
-$header-font-family: "EB Garamond", Garamond, serif;
+$header-font-family: sans-serif;
 $header-font-weight: 700;
 $base-font-size: 20px !default;
 $base-font-weight: 300 !default;
